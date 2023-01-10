@@ -1,9 +1,7 @@
 def cross(n):
     for i in range(n):
-        print(n * " ", n * "*", n * " ", sep = "")
+        print(n * " " + n * "*" + n * " ")
     for i in range(n):
-        print(n * "*", n * "*", n * "*", sep = "")
+        print(3 * n * "*")
     for i in range(n):
-        print(n * " ", n * "*", n * " ", sep = "")
-
-cross(4)
+        print(n * " " + n * "*" + n * " ")
